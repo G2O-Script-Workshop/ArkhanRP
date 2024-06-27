@@ -1,0 +1,16 @@
+<server>
+	<script src="shared/classes.nut" type="client" />
+	<script src="shared/classes.nut" type="server" />
+	<script src="shared/anims.nut" type="client" />
+	<script src="shared/anims.nut" type="server" />
+	<script src="shared/locations.nut" type="client" />
+	<script src="shared/locations.nut" type="server" />
+
+	<script src="client-side/main.nut" type="client" />
+	<script src="client-side/anims.nut" type="client" />
+	<script src="client-side/visual.nut" type="client" />
+
+	<script src="server-side/main.nut" type="server" />
+	<script src="server-side/panel.nut" type="server" />
+	<script src="server-side/rp-chat.nut" type="server" />
+</server>

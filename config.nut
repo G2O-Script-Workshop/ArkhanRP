@@ -1,0 +1,50 @@
+///////////////////////////////////////////
+         /// SERVER INFORMATION ///
+///////////////////////////////////////////
+
+SERVER_NAME <- "Khorinis Role-Play";
+
+///////////////////////////////////////////
+		/// ADMIN CONTROL PANEL ///
+///////////////////////////////////////////
+
+enum LEVEL {
+	PLAYER = 0,
+	LEADER = 1,
+	MOD = 2,
+	ADMIN = 3,
+}
+
+ADMIN_SERIAL <- [
+	//""
+]
+
+MOD_SERIAL <- [
+	//""
+]
+
+LEADER_SERIAL <- [
+	//""
+]
+
+///////////////////////////////////////////
+			 /// LOGGING IN ///
+///////////////////////////////////////////
+
+SOUND_LOGIN <- "DIA_JARVIS_HELLO_04_00.WAV";
+SOUND_REGISTER <- "DIA_ATTILA_HALLO_09_00.WAV";
+
+///////////////////////////////////////////
+			  /// PACKETS ///
+///////////////////////////////////////////
+
+packet <- Packet();
+
+enum packets {
+	login,
+	register,
+	pos,
+	visual,
+	afk,
+	promote
+};
